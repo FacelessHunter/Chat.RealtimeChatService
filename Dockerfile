@@ -4,4 +4,4 @@ EXPOSE 80
 EXPOSE 443
 
 COPY /dist/ .
-ENTRYPOINT ["dotnet", "Chat.API.dll"]
+ENTRYPOINT ["dotnet", "Chat.RealtimeChatService.dll"]
